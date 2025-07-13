@@ -2,6 +2,8 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
 }
 
 .header {
@@ -21,9 +23,148 @@ body {
 }
 
 .logo {
+  font-size: 24px;
+  margin-right: 600px;
   font-weight: 900;
 }
 
 .links {
   font-weight: light;
+}
+
+.headerSecTwo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  background-color: #1f2937;
+}
+
+.leftinfo {
+  width: 400px;
+  color: white;
+  margin-right: 300px;
+}
+
+.awesome {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.smoltext {
+  font-size: 18px;
+  color: #e5e7eb;
+  font-weight: lighter;
+}
+
+.signup {
+  background-color: #3882f6;
+  padding: 10px;
+  border: none;
+  width: 100px;
+  color: white;
+  border-radius: 8px;
+}
+
+.bluebox {
+  width: 250px;
+  height: 250px;
+  border: 5px solid #3882f6;
+  border-color: #3882f6;
+  border-radius: 10px;
+}
+
+.infoSec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 70px;
+  margin-top: 40px;
+}
+
+p {
+  text-align: center;
+  width: 250px;
+}
+
+.quoteSec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+  height: 300px;
+}
+
+.quote {
+  font-size: 30px;
+  width: 600px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.quoteSec .stamp {
+  margin-left: 400px;
+}
+
+.actionSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 70px;
+}
+
+.contentbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  background-color: #3882f6;
+  width: 1000px;
+  height: 150px;
+  border-radius: 8px;
+}
+
+.calltoaction {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 0.25em;
+}
+
+.productsignup {
+  margin-top: 0px;
+}
+
+.calltoaction,
+.productSignup {
+  line-height: 1.2;
+}
+
+.bottomsignup {
+  background-color: #3882f6;
+  border: solid 3px white;
+  border-radius: 8px;
+  padding: 8px;
+  width: 130px;
+  color: white;
+  font-weight: bolder;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: white;
+  height: 100px;
+  padding: 30px;
 }
